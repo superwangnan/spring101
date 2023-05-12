@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "source": "^/helloworld/(.*)$",
+            "target": "$1",
+            "destination": "helloworld"
+        },
+        {
+            "source": "^/*",
+            "localDir": ".",
+            "cacheControl": "no-cache, no-store, must-revalidate"
+        }
+    ]
+}
